@@ -1,0 +1,52 @@
+.bg{
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)) , url(../img/bg.JPEG) center right no-repeat fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+ font-family:  sans-serif;
+       
+}
+body{
+    margin:0;
+    padding:0;
+}
+
+
+.form-container{
+    padding:40px  20px;
+   
+    margin-top: 25vh;
+    height: 30%;
+    -webkit-box-shadow: 0px 6px 21px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 21px 4px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 21px 4px rgba(0,0,0,0.75);
+}
+
+label{
+    color: white;
+}
+form{
+    width: 100%;
+    background: rgba(0,0,0,.4);
+    
+}
+input[type="text"], input[type="password"]{
+    color: black
+}
+button{
+    margin-top: 20px;
+}
+.belowsubmit{
+    margin-top: 10px;
+    color: #aaa;
+    text-align: center;
+}
+.belowsubmit span{
+    color: #f3f3f3;
+    font-weight: bold;
+    
+}
+.belowpassword a{
+    float: right;
+    color: white;
+}
